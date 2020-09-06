@@ -1,0 +1,66 @@
+.card-col {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-gap: 0.5em;
+    padding: 0.75em;
+}
+
+.card-img {
+    background: url("../../assets/user.svg");
+    border-radius: 50%;
+    outline: none;
+    background-color: #c3e7dc;
+    border: solid 1px #000;
+    height: 30px;
+    width: 30px;
+}
+
+.cardTitle {
+    font-size: 1em;
+    color: darkslategray;
+    margin-right: 0.5em;
+}
+
+.cardSubtitle {
+    font-size: 0.75em;
+    color: gray;
+}
+.highlightTagRed {
+    color: red;
+    padding: 1em;
+    opacity: 0.5;
+    border: solid 2px red;
+    border-radius: 20px;
+    font-size: 0.6em;
+    margin: 0.5em;
+}
+
+.highlightTagBlue {
+    color: blue;
+    padding: 1em;
+    opacity: 0.5;
+    border: solid 2px blue;
+    border-radius: 20px;
+    font-size: 0.6em;
+    margin: 0.5em;
+}
+
+.bellIconYellow {
+    background: url("../../assets/bell-2.svg") no-repeat;
+    margin-left: 1.5em;
+}
+
+.bookingIcon {
+    background: url("../../assets/reload.svg") no-repeat;
+    margin: 0 1em;
+}
+
+.agreementIcon {
+    background: url("../../assets/check.svg") no-repeat;
+    margin: 0 1em;
+}
+
+.orderedIcon {
+    background: url("../../assets/work.svg") no-repeat;
+    margin: 0 1em;
+}

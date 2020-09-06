@@ -1,0 +1,117 @@
+.board {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fcfcfc;
+}
+.board-column {
+    width: 25%;
+    margin: 1em;
+}
+
+.title-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    color: #a2a2a2;
+    font-size: 1em;
+    margin: 0.2em;
+}
+.subtitle {
+    display: block;
+    font-size: 0.75em;
+    margin: 0.2em;
+    color: #a2a2a2;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    background-color: #f8f8f8;
+    color: #a2a2a2;
+}
+
+.btn::before {
+    content: "+";
+    margin: 0.2em;
+}
+
+.card {
+    list-style: none;
+    height: 6.5em;
+    box-shadow: #e0e0e0 0px 1px 5px 1px;
+    padding: 0.5em;
+    cursor: grab;
+}
+
+.card-list {
+    padding: 0 !important;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+    position: fixed;
+    background: white;
+    width: 60%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+.closeBtn {
+    float: right;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 16px;
+}
+
+label {
+    grid-column: 1 / 2;
+}
+input {
+    /* width: 50%; */
+}
+
+input,
+button {
+    grid-column: 2 / 3;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+}
+
+.moreIcon {
+    background: url("../../assets/more.svg") no-repeat;
+}

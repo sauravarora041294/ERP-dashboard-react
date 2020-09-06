@@ -1,0 +1,43 @@
+.navbar {
+    position: relative;
+    padding: 1em;
+    top: 0;
+    background-color: #fff;
+    margin-bottom: 1em;
+    box-shadow: #e0e0e0 1px 1px 5px 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarHeader,
+.navbarSearch {
+    display: inline-flex;
+    align-items: center;
+}
+
+.links {
+    margin-left: 5em;
+}
+
+.links a {
+    margin: 1em;
+    color: #000;
+    text-decoration: none;
+}
+
+.links a:nth-child(2) {
+    border-bottom: solid 5px red;
+    padding-bottom: 1em;
+}
+
+.searchbar {
+    border: none;
+    padding: 0.5em;
+    border-bottom: solid 1px grey;
+    outline: none;
+}
+
+.menuIcon {
+    background: url("../../assets/menu.svg") no-repeat;
+    margin-right: 3em;
+}
