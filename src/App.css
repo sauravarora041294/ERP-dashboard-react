@@ -1,0 +1,89 @@
+body {
+  background-color: #f8f8f8;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  display: inline-block;
+  width: 2em;
+  height: 1em;
+}
+
+.inviteIcon {
+  background: url("./assets/user.svg") no-repeat;
+}
+
+.bellIcon {
+  background: url("./assets/bell.svg") no-repeat;
+  margin: 0 1em;
+}
+
+.filterIcon {
+  background: url("./assets/filter.svg") no-repeat;
+}
+
+.settingsIcon {
+  background: url("./assets/setting.svg") no-repeat;
+  margin: 0.5em 0 0 1em;
+  height: 1.2em;
+}
+
+.col {
+  margin: 0.5em;
+  display: flex;
+  align-items: center;
+}
+
+.switch-links {
+  background-color: #fff;
+  width: 30em;
+  height: 2.5em;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.switch-links a {
+  color: darkgray;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.switch-links .active {
+  background-image: linear-gradient(to bottom right, red, orange);
+  border-radius: 20px;
+  padding: 0.5em 4em;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+  border: solid 0.2px lightgrey;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  outline: none;
+  margin: 1em;
+}
+
+.onlineProfile {
+  border-radius: 100px;
+  padding: 1.3em 1.5em;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.onlineProfile:nth-child(2n) {
+  background-color: #b6c7ff;
+}
+
+.onlineProfile:nth-child(2n + 1) {
+  background-color: #f0b3ba;
+}
